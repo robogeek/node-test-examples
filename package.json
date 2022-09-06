@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "node-test-examples",
   "version": "1.0.0",
-  "description": "",
+  "description": "Examples of using node:test package",
   "main": "index.js",
   "scripts": {
     "test": "node --test test1.mjs test-describe.mjs test-before.mjs",
@@ -9,7 +9,7 @@
     "test:describe": "node --test test-describe.mjs",
     "test:before": "node --test test-before.mjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "Node.js", "Node.js Test Frameworks" ],
+  "author": "David Herron <david@davidherron.com>",
   "license": "ISC"
 }
