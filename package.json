@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test1.mjs test-describe.mjs test-before.mjs",
+    "test:simple": "node --test test1.mjs",
+    "test:describe": "node --test test-describe.mjs",
+    "test:before": "node --test test-before.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
