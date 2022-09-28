@@ -6,8 +6,10 @@
   "scripts": {
     "test": "node --test test1.mjs test-describe.mjs test-before.mjs",
     "test:simple": "node --test test1.mjs",
+    "test:simple2": "node --test test2.mjs",
     "test:describe": "node --test test-describe.mjs",
-    "test:before": "node --test test-before.mjs"
+    "test:before": "node --test test-before.mjs",
+    "test:diagnostic": "node --test test-diagnostic.mjs"
   },
   "keywords": [ "Node.js", "Node.js Test Frameworks" ],
   "author": "David Herron <david@davidherron.com>",
